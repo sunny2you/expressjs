@@ -6,7 +6,8 @@ module.exports=(function(){
             host:"localhost",
             port:3306,
             user:'root',
-            password:'gocodermysql'
+            password:'gocodermysql',
+            database:'nodedb'
         },
         //실서버.
         real:{
@@ -23,7 +24,7 @@ module.exports=(function(){
             user:'',
             password:'',
             database:''
-        }
+        },
         dev:{
             host:'',
             port:'',
